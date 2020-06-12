@@ -1,0 +1,12 @@
+#/bin/sh
+
+sudo /etc/init.d/bluetooth start
+bluetoothctl power on
+bluetoothctl agent on
+bluetoothctl default-agent
+tbid=$(bluetoothctl --timeout 20 scan on | grep TextBlade | sed -e 's/Device\s\(.................\).*/\1/')
+bluetooth pair $tbid
+	
+
+
+
