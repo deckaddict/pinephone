@@ -1,4 +1,4 @@
-#/bin/sh
+#/bin/sh -x
 
 sudo /etc/init.d/bluetooth start
 bluetoothctl power on
