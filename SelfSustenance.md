@@ -2,7 +2,7 @@
 
 As a "minimalist" the goal is to feel free in spirit. This requires pure open standards to know that your digital belongings can migrate with you in the future as well as being able to do what you need with few gadgets.
 
-What is needed to ensure that no other HW than one pinephone is ever needed simultaneously? This is my idea how to achieve this. Now I need to learn more about the possibilities of achieving this.
+What is needed to ensure that no other HW than one pinephone is ever needed simultaneously? This is my idea how to set that up. Now I need to learn more about the possibilities of achieving this.
 
 - A Basic (Minimal?) Linux (BML) setup on a bootable sdcard.
 The BML shall have scripts prepared to easily install itself on emmc if desired.
