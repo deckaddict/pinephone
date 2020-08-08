@@ -11,5 +11,5 @@ The BML shall have scripts prepared to easily install itself on emmc if desired.
     - This means working OTG support, requiring the HW patch on my Pinephone 1.2
 - Android apps need to be runnable to manage every day life encounters with society such as software based 2FA.
   - Preferrably via anbox, but using GloDroid (https://github.com/GloDroid/glodroid_manifest/releases) as a separate sdcard to boot is the current target.
-  - GloDroid currently installs using a fairly long series of fastboot operations. This process need to get an alternative as a clean sdcard flashable image with all android partitions needed.
+  - GloDroid currently installs using a fairly long series of fastboot operations. This process need to get an alternative as a clean sdcard flashable image with all android partitions needed. Update: see https://raw.githubusercontent.com/GloDroid/glodroid_device/master/platform/tools/gensdimg.sh
   - Maybe additional TWRP-like features are needed in GloDroid to cheat SafetyNet if needed. Maybe microG is enough (https://github.com/GloDroid/glodroid_manifest/issues/19)
